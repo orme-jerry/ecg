@@ -176,7 +176,7 @@ for(int z(0); z < patients; z = z + 1)
 	convert5 << "ECGs/P" + patientIndex + "_PC.txt";
 	//convert5 << "denoised_" + patientIndex + ".txt";
 	//convert5 << "ECGs/Patient " + patientIndex + ", 0-5 seconds, data matrix.txt";
-	//convert5 << patientIndex + "/P" + patientIndex + "_R_" + PCS + ".txt";
+	//convert5 << "6th May - files for Jerry to run through FT code/" + patientIndex + "/P" + patientIndex + "_R_" + PCS + ".txt";
 	sourcefilename = convert5.str();
 
 	string complexTransform;
@@ -568,7 +568,7 @@ for(int z(0); z < patients; z = z + 1)
 	else{}
 	/*END PRINT DATA*/
 
-	/*CLOSE*/
+	/*CLOSE FILES*/
 	plot.close();
 	transform.close();
 	/*END CLOSE FILES*/
